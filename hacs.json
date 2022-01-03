@@ -1,0 +1,5 @@
+{
+    "name": "Car OBD Tracker",
+    "domains": ["sensor"],
+    "render_readme": true
+}

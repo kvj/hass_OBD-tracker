@@ -1,0 +1,12 @@
+{
+  "domain": "obd_tracker",
+  "name": "Car OBD Tracker",
+  "documentation": "https://github.com/kvj/hass_OBD-tracker",
+  "issue_tracker": "https://github.com/kvj/hass_OBD-tracker/issues",
+  "dependencies": [],
+  "codeowners": ["@kvj"],
+  "requirements": [],
+  "iot_class": "cloud_push",
+  "config_flow": true,
+  "version": "0.1.0"
+}

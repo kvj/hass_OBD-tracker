@@ -1,0 +1,36 @@
+{
+  "title": "Car OBD Tracker",
+  "config": {
+    "step": {
+      "user": {
+        "title": "New OBD Tracker",
+        "data": {
+          "name": "Entry name",
+          "speed": "Track current speed",
+          "rpm": "Track current speed",
+          "fuel": "Track current speed",
+          "ambient_temp": "Track current speed"
+        }
+      }
+    },
+    "error": {
+      "error": "Unknown error"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update OBD Tracker sensors",
+        "data": {
+          "speed": "Track current speed",
+          "rpm": "Track current speed",
+          "fuel": "Track current speed",
+          "ambient_temp": "Track current speed"
+        }
+      }
+    },
+    "error": {
+      "error": "Unknown error"
+    }
+  }
+}
