@@ -48,7 +48,7 @@ class DTC(BaseEntity, BinarySensorEntity):
 
     @property
     def is_on(self):
-        return self.sub_data.get("dtc") > 0
+        return self.sub_data.get("dtc", 0) > 0
 
     @property
     def available(self):
