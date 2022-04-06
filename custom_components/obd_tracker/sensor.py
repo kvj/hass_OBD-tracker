@@ -1,5 +1,6 @@
 from homeassistant.components.sensor import SensorEntity
 from homeassistant.helpers import config_validation as cv, entity_platform
+from homeassistant.helpers.entity import EntityCategory
 import voluptuous as vol
 
 import logging
@@ -163,4 +164,4 @@ class DTC(BaseEntity, SensorEntity):
 
     @property
     def entity_category(self):
-        return "diagnostic"
+        return EntityCategory.DIAGNOSTIC
