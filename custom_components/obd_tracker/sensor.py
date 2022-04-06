@@ -136,11 +136,8 @@ class Fuel(BaseEntity, SensorEntity):
 
     @property
     def native_value(self):
-        return self.sub_data.get("fuel")
-
-    @property
-    def state(self):
-        return self.native_value
+        if value := self.sub_data.get("fuel"):
+            return round(value)
 
 class DTC(BaseEntity, SensorEntity):
 
